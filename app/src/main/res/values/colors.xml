@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#108BA1</color>
+    <color name="colorPrimaryDark">#13A1B9</color>
+    <color name="colorAccent">#0798B1</color>
+    <color name="colorButton">#A12610</color>
+    <color name="colorBackground">#12B0CC</color>
+    <color name="purple">#723BC4</color>
+    <color name="ratingColor">#1589EA</color>
+    <color name="orangeButton">#EA7615</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorSecondary">#03FF28</color>
+    <color name="colorSecondaryVariant">#01FF79</color>
+    <color name="colorPrimaryNight">#86CAFF</color>
+    <color name="colorPrimaryVariantNight">#00C8FF</color>
+
+</resources>

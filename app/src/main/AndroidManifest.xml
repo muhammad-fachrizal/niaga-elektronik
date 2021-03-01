@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fachrizal.niagaelektronik">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.niagaelektronik">
+        <activity android:name="com.fachrizal.niagaelektronik.InputKodeActivity"></activity>
+        <activity
+            android:name="com.fachrizal.niagaelektronik.KeranjangActivity"
+            android:label="Keranjang" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.EditProfileActivity"
+            android:label="Edit Profile" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.ProfileActivity"
+            android:label="Akun Saya" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.DetailPesananActivity"
+            android:label="Detail Pesanan" />
+        <activity android:name="com.fachrizal.niagaelektronik.QRScannerActivity" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.BayarActivity"
+            android:label="Selesaikan Pembayaran" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.RiwayatActivity"
+            android:label="Riwayat Pesanan" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.BeliLangsungActivity"
+            android:label="Beli Langsung" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.DeskripsiLengkapActivity"
+            android:label="Deskripsi Produk" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.AksesorisHpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.PokemonMetagrossActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.PokemonHoohActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.NovelActivity"
+            android:label="@string/app_name" />
+        <activity android:name="com.fachrizal.niagaelektronik.LupaPasswordActivity" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name="com.fachrizal.niagaelektronik.RegisterActivity"
+            android:label="Register" />
+        <activity android:name="com.fachrizal.niagaelektronik.MainActivity" />
+        <activity android:name="com.fachrizal.niagaelektronik.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

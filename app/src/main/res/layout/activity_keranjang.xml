@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".KeranjangActivity">
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat Pengiriman"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editAlamatDB"
+        android:layout_below="@+id/textAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alamat db"/>
+
+    <ListView
+        android:id="@+id/list_keranjang"
+        android:layout_below="@+id/editAlamatDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Harga"/>
+
+        <TextView
+            android:id="@+id/textTotalHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTotal"
+            android:text="Hasil Total Harga"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonBeli"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beli"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:textColor="@color/white"
+            android:paddingTop="20dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textLupaSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Lupa Kata Sandi?"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:clickable="true"
+            />
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorButton"
+            android:backgroundTint="@color/colorButton"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+             />
+
+            <TextView
+                android:id="@+id/textPindahRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="Buat Akun."
+                android:textColor="@color/black"
+                android:clickable="true"
+                />
+
+        <TextView
+            android:id="@+id/textVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.1"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingTop="100dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
