@@ -45,11 +45,11 @@
             <ImageView
                 android:id="@+id/imgBaner"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="140dp"
                 android:layout_margin="5dp"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/edtCari"
-                android:src="@drawable/promo"
+                android:src="@drawable/promotion"
                 />
 
             <TextView

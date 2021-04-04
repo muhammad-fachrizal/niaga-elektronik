@@ -128,6 +128,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
+        if (id == R.id.dbButton) {
+            Intent dbmanager = new Intent(MainActivity.this,AndroidDatabaseManager.class);
+            startActivity(dbmanager);
+        }
+
         if (id == R.id.cartButton) {
             Intent intent = new Intent(MainActivity.this, KeranjangActivity.class);
             startActivity(intent);
