@@ -7,6 +7,6 @@ Description: Design and develop simple marketplace android app by implementing Q
 Simple marketplace android application. It can be used to buy a product, manage a cart, send an email for OTP, scan QR code to confirm the package has been received, and using SQLite to store the data.
 
 **Screenshot**
-![alt text](https://github.com/muhammad-fachrizal/niaga-elektronik/blob/master/screenshot/main_activity.png?raw=true)
+![alt text](https://github.com/muhammad-fachrizal/niaga-elektronik/blob/master/screenshot/main_activity.png?raw=true){:height="50%" width="50%"}
 ![alt text](https://github.com/muhammad-fachrizal/niaga-elektronik/blob/master/screenshot/product.png?raw=true)
 ![alt text](https://github.com/muhammad-fachrizal/niaga-elektronik/blob/master/screenshot/cart.png?raw=true)
