@@ -129,7 +129,7 @@ public class LupaPasswordActivity extends AppCompatActivity {
             session = Session.getDefaultInstance(props,
                     new javax.mail.Authenticator() {
                         protected PasswordAuthentication getPasswordAuthentication() {
-                            return new PasswordAuthentication("mailwebayashi@gmail.com", "kertaspulpen1");
+                            return new PasswordAuthentication("input email here", "input password here");
                         }
                     });
 
