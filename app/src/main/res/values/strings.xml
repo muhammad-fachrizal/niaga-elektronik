@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Niaga-Elektronik</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <string name="deskripsiNovel">
+        [SINOPSIS]
+        \nDEATH IS ONLY THE BEGINNING!
+        \n\nKicked out by his family and wandering the streets, an unemployed 34-year-old shut-in thinks he’s hit rock-bottom—just as he’s hit and killed by a speeding truck! Awakening to find himself reborn as an infant in a world of swords and sorcery, but with the memories of his first life intact, Rudeus Greyrat is determined not to repeat his past mistakes. He’s going to make the most of this reincarnation as he sets off on the adventure of a second lifetime!
+        \n\nKondisi: Bekas
+        \nSeries: Mushoku Tensei (Light Novel) (Book 1)
+        \nPaperback: 320 pages
+        \nPublisher: Seven Seas (May 21, 2019)
+        \nLanguage: English
+        \nISBN-10: 1642751383
+        \nISBN-13: 978-1642751383
+        \nProduct Dimensions: 5 x 0.8 x 7.1 inches
+    </string>
+
+    <string name="deskripsiPokemonHooh">
+        TCG Pokemon Indonesia
+        \nHo-oh GX RR
+        \nLycanroc GX RR
+        \n2x Pembersih Arena
+    </string>
+
+    <string name="deskripsiPokemonMetagross">
+        TCG Pokemon Indonesia
+        \nMetagross GX RR
+        \nDarkrai GX RR
+    </string>
+
+    <string name="deskripsiAksesorisHp">
+        \n-) Charger Aukey quickcharge 2.0 garansi resmi pembelian desember 2017
+        \n-) Hardcase Nillkin warna hitam
+        \n-) Earphone Sony MH-EX300AP
+        \n\nJual sepaket 200.000
+    </string>
+
+</resources>

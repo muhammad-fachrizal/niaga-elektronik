@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailPesananActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                >
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="Status"/>
+        <TextView
+            android:id="@+id/textStatusDB"
+            android:layout_below="@+id/textStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Status Database"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textTanggal"
+            android:layout_below="@+id/textStatusDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="Tanggal Pembelian"/>
+
+        <TextView
+            android:id="@+id/textTanggalDB"
+            android:layout_below="@+id/textStatusDB"
+            android:layout_toRightOf="@+id/textTanggal"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="tanggal database"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInvoiceDB"
+            android:layout_below="@+id/textTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="invoice"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_detail_pesanan"
+                android:layout_below="@+id/textInvoiceDB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textDetailPengiriman"
+            android:layout_below="@+id/list_detail_pesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="Detail Pengiriman"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textBebasOngkir1"
+            android:layout_below="@+id/textDetailPengiriman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Bebas Ongkir"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textBebasOngkir2"
+            android:layout_below="@+id/textBebasOngkir1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Pesanan kamu telah menggunakan potongan Bebas Ongkir" />
+
+        <TextView
+            android:id="@+id/textAlamat"
+            android:layout_below="@+id/textBebasOngkir2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Alamat Pengiriman"/>
+
+        <TextView
+            android:id="@+id/textAlamatDB"
+            android:layout_below="@+id/textAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="alamat database"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInfoBayar"
+            android:layout_below="@+id/textAlamatDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="Informasi Pembayaran"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textMetodeBayar"
+            android:layout_below="@+id/textInfoBayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="Metode Pembayaran"/>
+
+        <TextView
+            android:id="@+id/textBRIVA"
+            android:layout_below="@id/textInfoBayar"
+            android:layout_toRightOf="@+id/textMetodeBayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="BRIVA"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInfoTotalHargaKiri"
+            android:layout_below="@+id/textMetodeBayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="Total Harga  "/>
+
+        <TextView
+            android:id="@+id/textInfoJumlahDB"
+            android:layout_below="@id/textMetodeBayar"
+            android:layout_toRightOf="@+id/textInfoTotalHargaKiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="jumlah dalam database" />
+
+        <TextView
+            android:id="@+id/textInfoTotalHargaKanan"
+            android:layout_below="@id/textMetodeBayar"
+            android:layout_toRightOf="@+id/textInfoJumlahDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="Hitung Total Harga"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInfoTotalOngkir"
+            android:layout_below="@+id/textInfoTotalHargaKiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="Total Ongkos Kirim"/>
+
+        <TextView
+            android:id="@+id/textInfoBebasOngkir"
+            android:layout_below="@+id/textInfoTotalHargaKiri"
+            android:layout_toRightOf="@+id/textInfoTotalOngkir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="Bebas Ongkir"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInfoTotalBayarKiri"
+            android:layout_below="@+id/textInfoTotalOngkir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="Total Bayar"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textInfoTotalBayarKanan"
+            android:layout_below="@+id/textInfoTotalOngkir"
+            android:layout_toRightOf="@+id/textInfoTotalBayarKiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="hitung total bayar"
+            android:textStyle="bold"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/buttonPesananDiterima"
+            android:layout_below="@+id/textInfoTotalBayarKiri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Pesanan Diterima"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:visibility="visible"/>
+
+        </RelativeLayout>
+
+</ScrollView>

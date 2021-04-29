@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorBackground"
+    tools:context=".InputKodeActivity">
+
+    <TextView
+        android:id="@+id/textKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp"
+        android:text="Input Kode : "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="Masukkan Kode"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonInputKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorButton"
+        android:backgroundTint="@color/colorButton"
+        android:text="Input Kode"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.01"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:paddingTop="200dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/id_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/invoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/gambarProduk"
+        android:layout_toRightOf="@+id/checkBox"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:src="@drawable/novel"
+        />
+
+    <TextView
+        android:id="@+id/txtNamaProduk"
+        android:layout_toRightOf="@+id/gambarProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama produk"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/gambarGratisOngkir"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/gambarProduk"
+        android:layout_below="@+id/txtNamaProduk"
+        android:src="@drawable/gratis_ongkir"
+        />
+
+    <TextView
+        android:id="@+id/hargaProduk"
+        android:layout_toRightOf="@+id/gambarProduk"
+        android:layout_below="@+id/gambarGratisOngkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="harga"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/hargaRupiah"
+        android:layout_toRightOf="@+id/gambarProduk"
+        android:layout_below="@+id/gambarGratisOngkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="harga rupiah"
+        />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/hargaProduk"
+        android:src="@drawable/ic_baseline_add_circle_24"
+        />
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="1"
+        android:layout_toLeftOf="@+id/plus"
+        android:layout_below="@+id/hargaProduk"
+        />
+
+    <ImageView
+        android:id="@+id/minus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/jumlah"
+        android:layout_below="@+id/hargaProduk"
+        android:src="@drawable/ic_baseline_remove_circle_24" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/minus"
+        android:layout_below="@+id/hargaProduk"
+        android:src="@drawable/ic_baseline_delete_24" />
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:hint="Catatan untuk Penjual (Opsional)"
+        android:maxLength="100"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

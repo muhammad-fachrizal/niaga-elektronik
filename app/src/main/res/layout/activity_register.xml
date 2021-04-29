@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textRegisterNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap : "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editRegisterNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Nama Lengkap"
+            android:background="@color/white"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/textRegisterTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telepon : "
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editRegisterTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Telepon"
+            android:background="@color/white"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/textRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Email : "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Email"
+            android:background="@color/white"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <TextView
+            android:id="@+id/textRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Password : "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Password"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorButton"
+            android:backgroundTint="@color/colorButton"
+            android:text="@string/register" />
+
+        <TextView
+            android:id="@+id/textPindahLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Login"
+            android:clickable="true"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/textVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.1"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingTop="70dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
